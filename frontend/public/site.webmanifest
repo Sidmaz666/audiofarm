@@ -1,0 +1,42 @@
+{
+  "name": "AudioFarm",
+  "short_name": "AudioFarm",
+  "description": "AudioFarm is a simple yet powerful music player that streams from YouTube. Create playlists, download videos for offline playback, save favorites, and track your listening history.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F2F6F4",
+  "theme_color": "#2E9E8C",
+  "lang": "en-US",
+  "orientation": "any",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "AudioFarm music player interface"
+    }
+  ],
+  "features": [
+    "Stream music and videos from YouTube",
+    "Download videos for offline playback",
+    "Create and manage custom playlists",
+    "Save and organize favorite tracks",
+    "Track listening history"
+  ],
+  "categories": ["music", "entertainment", "productivity"],
+  "developer": {
+    "name": "sidmaz666",
+    "url": "https://github.com/sidmaz666"
+  }
+}
