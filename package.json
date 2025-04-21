@@ -17,5 +17,8 @@
   },
   "devDependencies": {
     "concurrently": "^8.0.0"
+  },
+  "dependencies": {
+    "user-agents": "^1.1.515"
   }
 }
