@@ -5,7 +5,7 @@ const compression = require("compression");
 const cors = require("cors");
 const ytdl = require("@distube/ytdl-core");
 const ytSearch = require("yt-search");
-const fetch = require("node-fetch");
+const fetch = require("node-fetch").default;
 
 const app = express();
 const PORT = process.env.PORT || 3000;
