@@ -9,19 +9,30 @@
   "scripts": {
     "dev": "nodemon index.js",
     "build": "echo \"No build step for backend\"",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand"
   },
   "dependencies": {
-    "@distube/ytdl-core": "^4.16.8",
+    "@distube/ytdl-core": "^4.16.12",
+    "@qnaplus/node-curl-impersonate": "^1.0.1",
     "compression": "^1.8.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "https-proxy-agent": "^7.0.6",
     "node-fetch": "^3.3.2",
+    "tough-cookie": "^5.1.2",
     "tunnel": "^0.0.6",
+    "youtubei.js": "^13.3.0",
     "yt-search": "^2.12.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.5",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.1.4"
   }
 }
